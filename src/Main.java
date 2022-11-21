@@ -29,45 +29,75 @@ public class Main {
         // Задача 2
         System.out.println("Задача 2");
         for (int i = 0; i < arrInt.length; i++) {
-            if (i != (arrInt.length - 1)) System.out.print(arrInt[i] + ", ");
-            else System.out.print(arrInt[i]);
+            if (i != (arrInt.length - 1)) {
+                System.out.print(arrInt[i] + ", ");
+            }
+            else {
+                System.out.print(arrInt[i]);
+            }
             }
         System.out.println(" ");
         for (int i = 0; i < arrDouble.length; i++) {
-            if (i != (arrDouble.length - 1)) System.out.print(arrDouble[i] + ", ");
-            else System.out.print(arrDouble[i]);
+            if (i != (arrDouble.length - 1)) {
+                System.out.print(arrDouble[i] + ", ");
+            }
+            else {
+                System.out.print(arrDouble[i]);
+            }
         }
         System.out.println(" ");
         for (int i = 0; i < arrBoolean.length; i++) {
-            if (i != (arrBoolean.length - 1)) System.out.print(arrBoolean[i] + ", ");
-            else System.out.print(arrBoolean[i]);
+            if (i != (arrBoolean.length - 1)) {
+                System.out.print(arrBoolean[i] + ", ");
+            }
+            else {
+                System.out.print(arrBoolean[i]);
+            }
         }
         System.out.println(" ");
         System.out.println(" ");
         // Задача 3
         System.out.println("Задача 3");
         for (int i = arrInt.length - 1; i >= 0; i--) {
-            if (i != 0) System.out.print(arrInt[i] + ", ");
-            else System.out.print(arrInt[i]);
+            if (i != 0) {
+                System.out.print(arrInt[i] + ", ");
+            }
+            else {
+                System.out.print(arrInt[i]);
+            }
         }
         System.out.println(" ");
         for (int i = arrDouble.length - 1; i >= 0; i--) {
-            if (i != 0) System.out.print(arrDouble[i] + ", ");
-            else System.out.print(arrDouble[i]);
+            if (i != 0) {
+                System.out.print(arrDouble[i] + ", ");
+            }
+            else {
+                System.out.print(arrDouble[i]);
+            }
         }
         System.out.println(" ");
         for (int i = arrBoolean.length - 1; i >= 0; i--) {
-            if (i != 0) System.out.print(arrBoolean[i] + ", ");
-            else System.out.print(arrBoolean[i]);
+            if (i != 0) {
+                System.out.print(arrBoolean[i] + ", ");
+            }
+            else {
+                System.out.print(arrBoolean[i]);
+            }
         }
         System.out.println(" ");
         System.out.println(" ");
         // Задача 4
         System.out.println("Задача 4");
         for (int i = 0; i < arrInt.length; i++) {
-            if (arrInt[i] % 2 != 0) arrInt[i] += 1;
-            if (i != (arrInt.length - 1)) System.out.print(arrInt[i] + ", ");
-            else System.out.print(arrInt[i]);
+            if (arrInt[i] % 2 != 0) {
+                arrInt[i] += 1;
+            }
+            if (i != (arrInt.length - 1)) {
+                System.out.print(arrInt[i] + ", ");
+            }
+            else {
+                System.out.print(arrInt[i]);
+            }
         }
         System.out.println(" ");
         System.out.println(Arrays.toString(arrInt));
